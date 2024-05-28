@@ -117,3 +117,9 @@ h4::first-letter {
 .dropdown:hover .content {
     display:block
 }
+.dropdown {
+    display: inline-block;
+}
+.dropdown a:hover {
+    background-color: chartreuse;
+}
