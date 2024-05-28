@@ -1,0 +1,119 @@
+/* CSS for black and white button */
+.black-white-button {
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    border: 2px solid black; /* Border color and thickness */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center-align text */
+    text-decoration: none; /* Remove default underline for links */
+    display: inline-block; /* Make the button display inline with block dimensions */
+    cursor: pointer; /* Show cursor as pointer when hovering */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect */
+.black-white-button:hover {
+    background-color: white; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+#container {
+    border: 2px solid black;
+}
+#container + p{
+    background-color: aquamarine;
+}
+
+.button2.button2:onclick {
+    background-color: white;
+    color: black;
+
+
+}
+
+
+
+li:hover {
+    background-color: hsl(71, 100%, 50%);
+}
+li:not(:hover) {
+    background-color: hsl(71, 52%, 68%);
+}
+h4::first-letter {
+    font-size: 2em;
+}
+#paragraph::first-line {
+    background-color: aqua;
+}
+#paragraph::selection {
+    color: chartreuse;
+    background-color: black;
+}
+#fruit li::before {
+    content: "😂";
+
+}
+#fruits:hover {
+    background-color: crimson;
+    color: cadetblue;
+}
+#fruits:not(:hover) {
+    background-color: khaki;
+}
+#fruits::marker {
+    content: "🍌";
+    
+   
+}
+.pagination {
+    text-align: center;    /* pagination exercise*/
+}
+.pagination a {
+    color: black;
+    text-decoration: none;
+    padding: 9px 15px;
+    display: inline-block;
+    
+}
+.pagination a.active {
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.pagination a:hover:not(.active) {
+    background-color: rgb(164, 228, 207);
+    border-radius: 5px;
+}
+
+.dropdown button {    /*dropdown exercise*/
+    width: 70px;
+    height: 40px;
+    font-size: large;
+    background-color: cadetblue;
+    border-radius: 5px;
+    
+    border: none;
+}
+.dropdown button:hover {
+    color: chartreuse;
+    background-color: beige;
+    cursor: pointer;
+}
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+ 
+.dropdown .content {
+    background-color: burlywood;
+    position: absolute;
+    min-width: 90px;
+    box-shadow: 2px 2px 3px;
+    border-radius: 5px;
+    display: none;
+}
+.dropdown:hover .content {
+    display:block
+}
