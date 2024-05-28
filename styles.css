@@ -120,6 +120,58 @@ h4::first-letter {
 .dropdown {
     display: inline-block;
 }
+
+
 .dropdown a:hover {
     background-color: chartreuse;
+    
+}
+.parent-container {
+    display: flex;          /* Use flexbox for centering */
+    justify-content: center; /* Center children horizontally */
+    align-items: center;    /* Center children vertically if needed */
+     
+}
+
+.grade-dropdown button {
+    width: 100px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: cadetblue;
+}
+.grade-dropdown button:hover {
+    background-color: gray;
+}
+
+.grade-dropdown a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 8px 10px;
+    
+    
+}
+.grade-dropdown a:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
+.grade-dropdown .grade-content {
+    position: absolute;
+    background-color: beige;
+    box-shadow: 2px 2px 3px;
+    min-width: 90px;
+    display: none;
+    border-radius: 5px;
+    
+    
+    
+}
+.grade-dropdown:hover .grade-content {
+    display: block;
+    
+}
+.grade-dropdown {
+    display: inline-block
 }
